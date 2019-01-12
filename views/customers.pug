@@ -1,0 +1,27 @@
+extends main
+
+include mixins/header
+include mixins/footer
+include mixins/mobileMenu
+include mixins/threeSectionCustomers
+include mixins/lines
+
+block content
+  +lines()
+  +mobileMenu()
+  .customersSVG.customersSVG__adjust
+    .customersSVG__1!=icon("customers1")
+  +header("customers")
+  .customerstop
+    h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Introducing KiKa
+    h3.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") KiKa is a secure and flexible way to pay online directly from your bank account.
+    .customerstop__arrow!=icon("downArrow")
+  .merchantsSVG
+    .merchantsSVG__3!=icon("customersMob")
+    .merchantsSVG__3WideC!=icon("customers2")
+  +threeSectionCustomers
+  .customersBottom
+  .customersSVG
+    .customersSVG__3!=icon("customers3")
+    .customersSVG__4!=icon("customers4")
+  +footer()

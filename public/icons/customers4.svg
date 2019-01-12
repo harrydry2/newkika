@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="316px" height="61px" viewBox="0 0 316 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="3.05951951%" x2="50%" y2="100%" id="customers4">
+            <stop stop-color="#78FFD6" offset="0%"></stop>
+            <stop stop-color="#A8FF78" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2">
+        <g id="Customers" transform="translate(-1124.000000, -2190.000000)" fill="url(#customers4)">
+            <g id="Group-2" transform="translate(-17.000000, 2037.000000)">
+                <g id="circle" transform="translate(1141.000000, 0.000000)">
+                    <path d="M87.3574424,0.0143825018 C87.4705616,0.0998861046 87.5553685,0.164030675 87.6118631,0.206816214 C212.945876,95.1271008 196.14715,263.801209 317.578733,304.897514 C317.678002,304.93111 317.827113,304.981311 318.026067,305.048119 L225.674312,342.360649 L87.3574424,0.0143825018 Z" id="Path-9-Copy-2" transform="translate(202.691754, 171.187516) rotate(652.000000) translate(-202.691754, -171.187516) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

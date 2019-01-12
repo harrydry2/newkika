@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+  head
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-115360808-3')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-115360808-3');
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='/dist/bundle.css')
+    link(rel='apple-touch-icon', sizes='180x180', href='/favicons/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/kikapay/KikaFavicon.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='https://s3.amazonaws.com/kikapay/KikaFavicon.png')
+    link(rel='manifest', href='/favicons/site.webmanifest')
+    link(rel='mask-icon', href='/favicons/safari-pinned-tab.svg', color='#00073D')
+    meta(name='msapplication-TileColor', content='#00073D')
+    meta(name='theme-color', content='#00073D')
+    block head
+      title KiKa
+      meta(name='description', content='KiKa: fairer, faster payments')
+      link(rel='canonical', href='https://www.kikapay.com')
+      meta(property='og:description', content='KiKa KiKa: fairer, faster payments')
+      meta(property='og:image', content='https://s3.amazonaws.com/kikapay/kikaSplash.png')
+      meta(property='og:image:height', content='575')
+      meta(property='og:image:width', content='359')
+      meta(property='og:site_name', content='KiKa: fairer, faster payments')
+      meta(property='og:title', content='KiKa: fairer, faster payments')
+      meta(property='og:type', content='website')
+      meta(property='og:url', content='https://www.kikapay.com')
+      meta(name='twitter:card', content='summary_large_image')
+      meta(name='twitter:description', content='KiKa KiKa: fairer, faster payments')
+      meta(name='twitter:image', content='https://s3.amazonaws.com/kikapay/kikaSplash.png')
+      meta(name='twitter:site', content='@Kikapay')
+      meta(name='twitter:title', content='KiKa: fairer, faster payments')
+    body
+      block content
+  block scripts
+    script(src="/dist/bundle.js")

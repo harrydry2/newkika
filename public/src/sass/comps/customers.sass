@@ -1,0 +1,75 @@
+.customerstop
+  display: flex
+  flex-direction: column
+  margin: calc(24vh + 9.6rem) auto 39.4vh auto
+  max-width: 99.4rem
+  padding: 0rem 4rem 30rem 4rem
+  width: 100%
+  padding: 0rem 4rem
+  align-items: center
+  @media (max-width: 840px)
+    padding: 0 2rem
+    align-items: center
+    margin: calc(29vh + 7rem) auto 2vh auto
+  h1
+    text-align: center
+    position: relative
+    z-index: 2
+    color: $p
+  h3
+    text-align: center
+    position: relative
+    z-index: 2
+    margin-top: 1.7rem
+  &__arrow
+    position: relative
+    display: none
+    animation: bounce 3s infinite
+    @media (max-width: 840px)
+      margin-top: 18vh
+      position: relative
+      padding: 2rem
+      display: block
+.flipFlex
+  @media (max-width: 840px)
+    flex-direction: column-reverse
+
+.flipFlexOut
+  @media (max-width: 840px)
+    flex-direction: column !important
+
+.customersBottom
+  margin-top: 20rem
+  width: 100%
+  @media (max-width: 1060px)
+    margin-top: 14rem
+
+.customersSVG
+  position: absolute
+  width: 100%
+  &__adjust
+    height: 100%
+    top: 0
+  &__1
+    position: absolute
+    right: 0%
+    top: 0%
+  &__3
+    position: absolute
+    left: 0%
+    bottom: 0
+    @media (max-width: 1060px)
+      display: none
+  &__4
+    position: absolute
+    right: 0%
+    bottom: 0%
+
+
+@keyframes bounce
+  0%, 20%, 50%, 80%, 100%
+    transform: translateY(0)
+  40%
+    transform: translateY(-1.5rem)
+  60%
+    transform: translateY(-.6rem)

@@ -1,0 +1,41 @@
+extends main
+
+include mixins/header
+include mixins/footer
+include mixins/lines
+include mixins/button
+include mixins/threeSection
+include mixins/wide
+include mixins/faq
+include mixins/git
+include mixins/hiw
+include mixins/mobileMenu
+
+block content
+  +mobileMenu()
+  .merchantsSVG.merchantsSVG__o1
+    .merchantsSVG__1!=icon("merchants1")
+  +lines()
+  +header("merchants")
+  .merchants
+    .merchants__left
+      h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") fairer, faster payments
+      h3.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Direct from bank payments that are convenient and secure for merchants and their customers
+      +button("Get in touch")
+    .merchants__right.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+      img(src="https://s3.amazonaws.com/kikapay/iPhoneWhite.png", alt="")
+  .merchantsSVG
+    .merchantsSVG__3!=icon("merchants3")
+    .merchantsSVG__3Wide!=icon("merchants3Alt")
+  +threeSection
+  .merchantsSVG.merchantsSVG__o2
+    .merchantsSVG__2!=icon("merchants2")
+  +hiw
+  .merchantsSVG
+    .merchantsSVG__4!=icon("merchants4")
+  +faq
+  +wide
+  +git
+  +footer()
+
+

@@ -1,0 +1,99 @@
+html,body
+  font-family: "OpenSans"
+  font-size: 10px
+  background: $w
+  color: $p
+  @media (max-width: 1023px)
+    font-size: 10px
+
+.noScroll
+  overflow: hidden
+  position: relative
+  height: 100%
+
+a
+  transition: all 0.4s
+  &:hover
+    opacity: 0.95
+    transition: all 0.4s
+
+h1
+  font-size: 4.7rem
+  font-family: Poppins
+  font-weight: bold
+  color: $p
+  line-height: 1.4
+  @media (max-width: 840px)
+    font-size: 2.7rem
+
+h3
+  font-size: 1.9rem
+  font-family: OpenSans
+  color: $p
+  line-height: 2
+  @media (max-width: 840px)
+    font-size: 1.6rem
+    line-height: 1.9
+
+h4
+  font-size: 1.8rem
+  font-family: OpenSans
+  color: $p
+  line-height: 1.9
+  @media (max-width: 840px)
+    font-size: 1.6rem
+
+
+h2
+  font-size: 4rem
+  font-family: Poppins
+  font-weight: bold
+  color: $p
+  @media (max-width: 840px)
+    font-size: 2.7rem
+
+.button
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  font-family: OpenSans
+  font-weight: bold
+  font-size: 1.4rem
+  border-radius: 100px
+  background-color: $s
+  padding: 0.9rem 1.7rem 1.1rem 1.9rem
+  transition: all 0.6s
+  cursor: pointer
+  text-transform: uppercase
+  color: $w
+  &__submit
+    border-radius: 4px
+    padding: 0.9rem 2.4rem 1.1rem 2.6rem
+  &:hover
+    opacity: 0.9
+    transition: all 0.6s
+
+.lines
+  bottom: 0
+  display: flex
+  height: 100%
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
+  width: 100%
+  z-index: 0
+  &__item
+    border-right: 1px solid rgba(0,7,61,.06)
+    height: 100%
+    width: 20%
+
+.animate.fade-in.visible
+  opacity: 1 !important
+  transition: opacity 1.2s
+  transform: translate(0, 0)
+
+.animate.fade-in
+  opacity: 0 !important
+  transition: opacity 1.2s
+  transform: translate(0, 0rem)
