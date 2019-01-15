@@ -4,13 +4,13 @@
     <title>Path-9-Copy-2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="64.2190299%" y1="21.2052437%" x2="34.2235886%" y2="141.383392%" id="linearGradient-1">
-            <stop stop-color="#19FF1E" offset="0%"></stop>
-            <stop stop-color="#78FFD2" offset="100%"></stop>
+        <linearGradient x1="64.2190299%" y1="21.2052437%" x2="34.2235886%" y2="141.383392%" id="customers2">
+            <stop stop-color="#19FF1E" offset="0%" stop-opacity="0.18"></stop>
+            <stop stop-color="#78FFD2" offset="100%" stop-opacity="0.18"></stop>
         </linearGradient>
     </defs>
-    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.18">
-        <g id="Customers" transform="translate(0.000000, -536.000000)" fill="url(#linearGradient-1)">
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customers" transform="translate(0.000000, -536.000000)" fill="url(#customers2)">
             <g id="lander" transform="translate(-245.000000, -808.000000)">
                 <path d="M1001.20425,1532.02085 C1002.70786,1532.25012 1003.83993,1532.41833 1004.60047,1532.52548 C1018.67944,1534.50904 1034.09371,1535.34928 1051.04478,1534.90796 C1316.68773,1527.99191 1601.55817,2018.0401 1272.3208,2154.87896 C943.083427,2291.71781 1151.67761,2427.50194 895.264353,2584.8503 C638.851091,2742.19865 269.967801,2454.5052 107.552107,2105.90228 C76.1605292,2038.52459 13.5273869,1901.40738 -8.44615558,1786.73305 C-8.56521602,1786.1117 -8.74110798,1785.18118 -8.97383144,1783.94149 L1001.20425,1532.02085 Z" id="Path-9-Copy-2" transform="translate(705.758055, 2080.502671) rotate(284.000000) translate(-705.758055, -2080.502671) "></path>
             </g>

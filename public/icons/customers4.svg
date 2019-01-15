@@ -5,11 +5,11 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="3.05951951%" x2="50%" y2="100%" id="customers4">
-            <stop stop-color="#78FFD6" offset="0%"></stop>
-            <stop stop-color="#A8FF78" offset="100%"></stop>
+            <stop stop-color="#78FFD6" offset="0%" stop-opacity="0.20"></stop>
+            <stop stop-color="#A8FF78" offset="100%" stop-opacity="0.20"></stop>
         </linearGradient>
     </defs>
-    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2">
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Customers" transform="translate(-1124.000000, -2190.000000)" fill="url(#customers4)">
             <g id="Group-2" transform="translate(-17.000000, 2037.000000)">
                 <g id="circle" transform="translate(1141.000000, 0.000000)">
