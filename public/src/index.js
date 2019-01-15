@@ -10,7 +10,8 @@ import {
   wideFunction,
   formSubmit,
   zenscrollFunction,
-  zenscrollFunction2
+  zenscrollFunction2,
+  imgSwap
 } from "./modules/merchant";
 import zenscrollFunction3 from "./modules/customers";
 
@@ -52,6 +53,7 @@ if ($(".merchants")) {
   formSubmit();
   zenscrollFunction();
   zenscrollFunction2();
+  imgSwap();
 }
 
 if ($(".aboutSVG")) {
