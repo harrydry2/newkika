@@ -2,12 +2,10 @@ extends main
 
 include mixins/header
 include mixins/footer
-include mixins/lines
 include mixins/button
 include mixins/mobileMenu
 
 block content
-  +lines()
   +mobileMenu()
   .partnersSVG
     .partnersSVG__1!=icon("partners1")

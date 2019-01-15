@@ -2,13 +2,11 @@ extends main
 
 include mixins/header
 include mixins/footer
-include mixins/lines
 include mixins/tSpec
 include mixins/mobileMenu
 
 block content
   +mobileMenu()
-  +lines()
   .aboutSVG
     .aboutSVG__1!=icon("about1")
     .aboutSVG__2!=icon("about2")
